@@ -1,9 +1,9 @@
-const departureDates = ["2021-02-22", "2021-03-01", "2021-03-08"]
+const departureDates = ["2021-03-08", "2021-03-15]
 const airports = ["SYD", "PER", "MEL", "ADL", "BNE"]
 
 const root = "https://www.kayak.com/flights/TLV-"
-const suffix = "1adults/children-11?sort=bestflight_a&fs=airlines=-MULT"
-const roundTemplate = `${root}$AIRPORT/$DEPDATE-flexible/2021-03-31-flexible/${suffix}`
+const suffix = "1adults/children-11-17-17?sort=bestflight_a&fs=airlines=-MULT"
+const roundTemplate = `${root}$AIRPORT/$DEPDATE-flexible/2021-04-08-flexible/${suffix}`
 const onewayTemplate = `${root}$AIRPORT/$DEPDATE-flexible/${suffix}`
 
 function templateToUrl(template, airport, depDate) {
