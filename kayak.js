@@ -1,4 +1,4 @@
-const departureDates = ["2021-03-08", "2021-03-15]
+const departureDates = ["2021-03-08", "2021-03-15"]
 const airports = ["SYD", "PER", "MEL", "ADL", "BNE"]
 
 const root = "https://www.kayak.com/flights/TLV-"
